@@ -12,11 +12,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Methods" Type="Folder">
-			<Item Name="PatchMultipartMethod.vi" Type="VI" URL="../PatchMultipartMethod.vi"/>
+			<Item Name="Create_Request.vi" Type="VI" URL="../Create_Request.vi"/>
+			<Item Name="Patch_Method.vi" Type="VI" URL="../Patch_Method.vi"/>
+			<Item Name="Head_Method.vi" Type="VI" URL="../Head_Method.vi"/>
+			<Item Name="Get_Method.vi" Type="VI" URL="../Get_Method.vi"/>
+			<Item Name="Patch_Multipart_Method.vi" Type="VI" URL="../Patch_Multipart_Method.vi"/>
+			<Item Name="Post_Multipart_Method.vi" Type="VI" URL="../Post_Multipart_Method.vi"/>
+			<Item Name="Put_Method.vi" Type="VI" URL="../Put_Method.vi"/>
+			<Item Name="Delete_Method.vi" Type="VI" URL="../Delete_Method.vi"/>
 		</Item>
 		<Item Name="TodoList.txt" Type="Document" URL="../TodoList.txt"/>
 		<Item Name="Request.lvclass" Type="LVClass" URL="../Request.lvclass"/>
-		<Item Name="Patch_multipart_new.vi" Type="VI" URL="../Patch_multipart_new.vi"/>
 		<Item Name="Response.lvclass" Type="LVClass" URL="../Response.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -24,16 +30,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
-			<Item Name="GET_Req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/GET_Req_PS.vi"/>
-			<Item Name="PUT_req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/PUT_req_PS.vi"/>
-			<Item Name="HEAD_req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/HEAD_req_PS.vi"/>
-			<Item Name="DELETE_req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/DELETE_req_PS.vi"/>
-			<Item Name="PATCH_req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/PATCH_req_PS.vi"/>
-			<Item Name="multipart_Body_Binary.vi" Type="VI" URL="../../Data-Flow Version/Multipart/multipart_Body_Binary.vi"/>
-			<Item Name="POST_Multipart_req_PS.vi" Type="VI" URL="../../Data-Flow Version/Requests/POST_Multipart_req_PS.vi"/>
-			<Item Name="Run_Powershell_script.vi" Type="VI" URL="../../Data-Flow Version/PowerShell/Run_Powershell_script.vi"/>
-			<Item Name="Parse.vi" Type="VI" URL="../../../../../../../Desktop/Parse.vi"/>
-			<Item Name="Get_LV_values_from_PS.vi" Type="VI" URL="../Get_LV_values_from_PS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

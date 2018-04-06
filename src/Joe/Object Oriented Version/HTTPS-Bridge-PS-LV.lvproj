@@ -24,6 +24,7 @@
 		<Item Name="TodoList.txt" Type="Document" URL="../TodoList.txt"/>
 		<Item Name="Request.lvclass" Type="LVClass" URL="../Request.lvclass"/>
 		<Item Name="Response.lvclass" Type="LVClass" URL="../Response.lvclass"/>
+		<Item Name="EXAMPLE_REQUEST.vi" Type="VI" URL="../EXAMPLE_REQUEST.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>

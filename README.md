@@ -22,7 +22,7 @@ This is a framework to perform HTTPS requests using Windows PowerShell, which ha
 Supported methods include **GET**, **PUT**, **DELETE**, **PATCH**, **HEAD**, **PATCH Multipart**, and **POST Multipart**. This list will grow slightly in the future. 
 
 
-#### Contact Information ####
+### Contact Information ###
 
 Joseph Albro 
 Undergraduate Researcher

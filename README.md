@@ -9,7 +9,7 @@ This repository is the home of any programs relating to REST APIs or HTTPS frame
 If you wish to contribute, contact **Patrick Irvin** to be added to the repository. Once approved, please make another folder in the `src` section of the repository.
 
 
----
+
 ---
 
 ## Joseph #
@@ -21,7 +21,6 @@ This is a framework to perform HTTPS requests using Windows PowerShell, which ha
 
 Supported methods include **GET**, **PUT**, **DELETE**, **PATCH**, **HEAD**, **PATCH Multipart**, and **POST Multipart**. This list will grow slightly in the future. 
 
----
 
 #### Contact Information ####
 
@@ -31,11 +30,10 @@ joe.albro@levylab.org
 jaa177@pitt.edu  (Please do not use unless non-levylab business)
 
 ---
----
 
 ## Patrick ##
 
----
+
 ---
 
 ## Pai ##

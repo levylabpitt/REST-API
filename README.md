@@ -24,10 +24,10 @@ Supported methods include **GET**, **PUT**, **DELETE**, **PATCH**, **HEAD**, **P
 
 ### Contact Information ###
 
-Joseph Albro 
-Undergraduate Researcher
-joe.albro@levylab.org
-jaa177@pitt.edu  (Please do not use unless non-levylab business)
+Joseph Albro  
+Undergraduate Researcher  
+joe.albro@levylab.org  
+jaa177@pitt.edu  (Please do not use unless non-levylab business)  
 
 ---
 

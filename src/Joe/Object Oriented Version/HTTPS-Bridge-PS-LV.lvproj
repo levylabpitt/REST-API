@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Methods" Type="Folder">
+			<Item Name="Post_Method.vi" Type="VI" URL="../Methods/Post_Method.vi"/>
 			<Item Name="Create_Request.vi" Type="VI" URL="../Methods/Create_Request.vi"/>
 			<Item Name="Patch_Method.vi" Type="VI" URL="../Methods/Patch_Method.vi"/>
 			<Item Name="Head_Method.vi" Type="VI" URL="../Methods/Head_Method.vi"/>

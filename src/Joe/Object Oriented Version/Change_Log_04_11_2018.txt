@@ -1,0 +1,187 @@
+Change Log
+DELETE_req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'DELETE' -uri $url -Headers $headers } catch { $_.Exception.Response }
+
+New:
+$request = 
+try { 
+Invoke-WebRequest -Method 'DELETE' -uri $url -Headers $headers 
+$err = 'false' 
+} catch { 
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+GET_Req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'Get' -uri $url -Headers $headers } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'Get' -uri $url -Headers $headers 
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}	
+
+----
+
+Head_Req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'HEAD' -uri $url -Headers $headers } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'HEAD' -uri $url -Headers $headers
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+POST_req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'POST' -uri $url -Headers $headers -Body $body -ContentType $contenttype } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'POST' -uri $url -Headers $headers -Body $body -ContentType $contenttype 
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+POST_Multipart_Req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'POST' -Uri $url -Headers $headers -ContentType $contenttype -InFile 'RequestBodySavedToFile' 
+Remove-Item RequestBodySavedToFile } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+   Invoke-WebRequest -Method 'POST' -Uri $url -Headers $headers -ContentType $contenttype -InFile 'RequestBodySavedToFile' 
+Remove-Item RequestBodySavedToFile 
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+PATCH_req_PS.VI
+Original:
+$request = try { Invoke-WebRequest -Method 'PATCH' -uri $url -Headers $headers -Body $body -ContentType $contenttype } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'PATCH' -uri $url -Headers $headers -Body $body -ContentType $contenttype 
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+
+PUT_req_PS.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'PUT' -uri $url -Headers $headers -Body $body -ContentType $contenttype } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'PUT' -uri $url -Headers $headers -Body $body -ContentType $contenttype 
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}
+
+----
+
+Patch_multipart_new.vi
+Original:
+$request = try { Invoke-WebRequest -Method 'PATCH' -Uri $url -Headers $headers -ContentType $contenttype -InFile 'RequestBodySavedToFile' 
+Remove-Item RequestBodySavedToFile } catch { $_.Exception.Response }
+
+New:
+$request =
+try { 
+    Invoke-WebRequest -Method 'PATCH' -Uri $url -Headers $headers -ContentType $contenttype -InFile 'RequestBodySavedToFile' 
+Remove-Item RequestBodySavedToFile
+    $err = 'false'
+} catch {
+    $_.exception
+    $errorresponse = $error[0].errordetails.message
+    $err = 'true'
+    $errorresponse
+}
+if ($err -eq 'false') {
+    $request.rawcontent
+} else {
+    $request
+}			

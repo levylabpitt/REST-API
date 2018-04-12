@@ -42,7 +42,7 @@
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -76,8 +76,9 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -97,21 +98,23 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Allow Access to onenote.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Allow Access to onenote.vi"/>
+			<Item Name="Allow Access to onenote.vi" Type="VI" URL="../../Allow Access to onenote.vi"/>
 			<Item Name="Allow_Access_Exchange_Tokens.vi" Type="VI" URL="../Allow_Access_Exchange_Tokens.vi"/>
-			<Item Name="Check_connection.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Check_connection.vi"/>
-			<Item Name="Create_Request.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/Object Oriented Version/Methods/Create_Request.vi"/>
+			<Item Name="Check_connection.vi" Type="VI" URL="../../Check_connection.vi"/>
+			<Item Name="Create_Request.vi" Type="VI" URL="../../../Object Oriented Version/Methods/Create_Request.vi"/>
+			<Item Name="Escape_URL_method.vi" Type="VI" URL="../../../Object Oriented Version/Request/URL/Escape_URL_method.vi"/>
 			<Item Name="Get Notebooks.vi" Type="VI" URL="../Get Notebooks.vi"/>
-			<Item Name="Get_Method.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/Object Oriented Version/Methods/Get_Method.vi"/>
+			<Item Name="Get_Method.vi" Type="VI" URL="../../../Object Oriented Version/Methods/Get_Method.vi"/>
 			<Item Name="Notebooks JSON to LV.vi" Type="VI" URL="../Notebooks JSON to LV.vi"/>
-			<Item Name="One note refresh.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Authorization/One note refresh.vi"/>
-			<Item Name="Onenote_Auth_handler.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Authorization/Onenote_Auth_handler.vi"/>
-			<Item Name="Post_Method.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/Object Oriented Version/Methods/Post_Method.vi"/>
-			<Item Name="read_access_codes_from_file.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Authorization/read_access_codes_from_file.vi"/>
-			<Item Name="Request.lvclass" Type="LVClass" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/Object Oriented Version/Request/Request.lvclass"/>
-			<Item Name="Response.lvclass" Type="LVClass" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/Object Oriented Version/Response/Response.lvclass"/>
+			<Item Name="One note refresh.vi" Type="VI" URL="../../Authorization/One note refresh.vi"/>
+			<Item Name="Onenote_Auth_handler.vi" Type="VI" URL="../../Authorization/Onenote_Auth_handler.vi"/>
+			<Item Name="Post_Method.vi" Type="VI" URL="../../../Object Oriented Version/Methods/Post_Method.vi"/>
+			<Item Name="read_access_codes_from_file.vi" Type="VI" URL="../../Authorization/read_access_codes_from_file.vi"/>
+			<Item Name="Request.lvclass" Type="LVClass" URL="../../../Object Oriented Version/Request/Request.lvclass"/>
+			<Item Name="Response.lvclass" Type="LVClass" URL="../../../Object Oriented Version/Response/Response.lvclass"/>
+			<Item Name="Search_Header_Array.vi" Type="VI" URL="../../../Object Oriented Version/Response/Access/Search_Header_Array.vi"/>
 			<Item Name="Setup_Onenote_Application.vi" Type="VI" URL="../Setup_Onenote_Application.vi"/>
-			<Item Name="write_access_codes_to_file.vi" Type="VI" URL="../../../Documents/Bitbucket/REST_APIs/src/Joe/OneNote/Authorization/write_access_codes_to_file.vi"/>
+			<Item Name="write_access_codes_to_file.vi" Type="VI" URL="../../Authorization/write_access_codes_to_file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
